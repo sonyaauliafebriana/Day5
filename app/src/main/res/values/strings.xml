@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Quiz1</string>
+    <string name="silver">Silver</string>
+    <string name="gold">Gold</string>
+    <string name="biasa">Normal</string>
+    <string name="radipgroup">Radio Group</string>
+    <string name="transaksi_diatas_10_juta_akan_mendapatkan_diskon_sebesar_100_000">Transactions over 10 million will get a discount of 100,000</string>
+    <string name="proses">Process</string>
+    <string name="sonya_aulia_febriana_quiz_1">^SONYA AULIA FEBRIANA QUIZ 1^</string>
+    <string name="selamat_datang">WELCOME</string>
+    <string name="tipe_membership">Membership Type :</string>
+    <string name="transaksi_hari_ini">Todays Transactions</string>
+    <string name="nama_pembeli">customer</string>
+    <string name="nama_barang">Name of goods</string>
+    <string name="kode_barang">Item code</string>
+    <string name="jumlah_barang">The amount of goods</string>
+    <string name="total_harga_rp">Total Price: Rp.</string>
+    <string name="diskon_rp">Discount: Rp.</string>
+    <string name="total_bayar_rp">Total Pay: Rp.</string>
+    <string name="terimakasih_telah_berbelanja_disini">Thank you for shopping here!</string>
+    <string name="share">Share</string>
+</resources>

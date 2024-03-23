@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="#ECE6ED"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="^SONYA AULIA FEBRIANA QUIZ 1^"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:height="60dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#AEB5DA"
+        android:layout_marginTop="16dp"
+        android:textColor="#0A196E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etinputitem"
+        android:layout_width="230dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/nama_pembeli"
+        android:minHeight="8dp"
+        android:padding="8dp"
+        android:textColor="#0E0E0E"
+        android:textSize="15dp" />
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etKodebrg"
+        android:layout_width="230dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/kode_barang"
+        app:layout_constraintTop_toBottomOf="@id/etinputitem"
+        android:minHeight="4dp"
+        android:textColor="#370440"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barang">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etbrg"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:padding="8dp"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/jumlah_barang"
+        app:layout_constraintTop_toBottomOf="@id/barang"
+        android:minHeight="4dp"
+        android:textColor="#370440"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/radipgroup"
+        app:layout_constraintTop_toBottomOf="@id/jumlah"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbSilver"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/silver"
+            android:textColor="#0A196E" />
+
+        <RadioButton
+            android:id="@+id/rbGold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/gold"
+            android:textColor="#0A196E" />
+
+        <RadioButton
+            android:id="@+id/rbBiasa"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/biasa"
+            android:textColor="#0A196E" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvDiskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"
+        android:hint="@string/transaksi_diatas_10_juta_akan_mendapatkan_diskon_sebesar_100_000"
+        android:textColor="#F10606"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:hint="@string/proses"
+        app:layout_constraintTop_toBottomOf="@id/tvDiskon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

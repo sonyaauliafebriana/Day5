@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz1</string>
+    <string name="silver">Silver</string>
+    <string name="gold">Gold</string>
+    <string name="biasa">Biasa</string>
+    <string name="radipgroup">radipGroup</string>
+    <string name="transaksi_diatas_10_juta_akan_mendapatkan_diskon_sebesar_100_000">Transaksi Diatas 10 Juta Akan Mendapatkan Diskon Sebesar 100.000</string>
+    <string name="proses">Proses</string>
+    <string name="sonya_aulia_febriana_quiz_1">^SONYA AULIA FEBRIANA QUIZ 1^</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="tipe_membership">Tipe Membership :</string>
+    <string name="transaksi_hari_ini">Transaksi Hari Ini</string>
+    <string name="nama_pembeli">Nama Pembeli</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="kode_barang">Kode Barang</string>
+    <string name="jumlah_barang">Jumlah Barang</string>
+    <string name="total_harga_rp">Total Harga: Rp.</string>
+    <string name="diskon_rp">Diskon: Rp.</string>
+    <string name="total_bayar_rp">Total Bayar: Rp.</string>
+    <string name="terimakasih_telah_berbelanja_disini">Terimakasih Telah Berbelanja Disini!</string>
+    <string name="share">Share</string>
+</resources>

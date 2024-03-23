@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اختبار 1  </string>
+    <string name="silver">فضة</string>
+    <string name="gold">ذهب</string>
+    <string name="biasa">طبيعي</string>
+    <string name="radipgroup">مجموعة الراديو</string>
+    <string name="transaksi_diatas_10_juta_akan_mendapatkan_diskon_sebesar_100_000"> المعاملات التي تزيد عن 10 ملايين ستحصل على خصم قدره 100000</string>
+    <string name="proses">عملية</string>
+    <string name="sonya_aulia_febriana_quiz_1">^سونيا أوليا فيبريانا مسابقة 1^</string>
+    <string name="selamat_datang">مرحباً</string>
+    <string name="tipe_membership">نوع العضوية :</string>
+    <string name="transaksi_hari_ini">صفقات اليوم</string>
+    <string name="nama_pembeli">اسم المشتري</string>
+    <string name="nama_barang">أسماء الجيدون</string>
+    <string name="kode_barang">رمز الصنف</string>
+    <string name="jumlah_barang">كمية البضائع</string>
+    <string name="total_harga_rp">السعر الإجمالي: روبية.</string>
+    <string name="diskon_rp">الخصم: روبية.</string>
+    <string name="total_bayar_rp">إجمالي الأجر: روبية.</string>
+    <string name="terimakasih_telah_berbelanja_disini">شكرا للتسوق هنا!</string>
+    <string name="share">يشارك</string>
+</resources>

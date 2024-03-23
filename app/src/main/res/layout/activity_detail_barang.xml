@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="#ECE6ED"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:hint="@string/sonya_aulia_febriana_quiz_1"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:height="60dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#AEB5DA"
+        android:layout_marginTop="1dp"
+        android:textColor="#0A196E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/selamat_datang"
+        android:textColor="#46508C"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvMembershipType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#46508C"
+        android:layout_gravity="center"
+        android:hint="@string/tipe_membership"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/tvTransaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#46508C"
+        android:hint="@string/transaksi_hari_ini"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNamaPembeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#46508C"
+        android:hint="@string/nama_pembeli"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNamaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama_barang"
+        android:textColor="#46508C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvKodeBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/kode_barang"
+        android:textColor="#46508C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvJumlahBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#46508C"
+        android:hint="@string/jumlah_barang"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/total_harga_rp"
+        android:textColor="#46508C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDiskon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#46508C"
+        android:hint="@string/diskon_rp"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalBayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/total_bayar_rp"
+        android:textSize="15sp"
+        android:textColor="#46508C"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvThanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:textColor="#46508C"
+        android:layout_gravity="center"
+        android:hint="@string/terimakasih_telah_berbelanja_disini"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/share"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
